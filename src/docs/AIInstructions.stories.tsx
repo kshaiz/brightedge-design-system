@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react-vite'
 import { Box, Divider, Tab, Tabs, Typography } from '@mui/material'
 import { useState } from 'react'
 // @ts-ignore

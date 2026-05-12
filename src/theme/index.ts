@@ -30,14 +30,43 @@ export const theme = createTheme({
   // spacing: 8,
 
   // ─── Component overrides ────────────────────────────────────────────────────
-  // components: {
-  //   MuiButton: {
-  //     styleOverrides: {
-  //       root: { textTransform: 'none' },
-  //     },
-  //     defaultProps: {
-  //       disableElevation: true,
-  //     },
-  //   },
-  // },
+  components: {
+    // FormLabel sits 0.5 spacing units above its accompanying input.
+    // Never use InputLabel in product code — use FormLabel instead.
+    MuiFormLabel: {
+      styleOverrides: {
+        root: ({ theme }: { theme: any }) => ({
+          marginBottom: theme.spacing(0.5),
+        }),
+      },
+    },
+
+    // Checkbox is always to the left of its label (labelPlacement="end").
+    // align-items: flex-start + -9px top margin on the control keeps the
+    // checkbox icon vertically centered on the first line of multi-line labels.
+    MuiFormControlLabel: {
+      defaultProps: {
+        labelPlacement: 'end',
+      },
+      styleOverrides: {
+        root: {
+          alignItems: 'flex-start',
+          '& .MuiCheckbox-root': {
+            marginTop: '-9px',
+          },
+          '& .MuiRadio-root': {
+            marginTop: '-9px',
+          },
+        },
+      },
+    },
+
+    // Checkbox groups default to a horizontal row; wrap to column only when
+    // space is too narrow (consumers apply column orientation via the row prop).
+    MuiFormGroup: {
+      defaultProps: {
+        row: true,
+      },
+    },
+  },
 })

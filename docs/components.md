@@ -5,8 +5,14 @@ Those files are the source of truth for component-specific AI rules and are also
 
 This file covers shared patterns that apply across multiple components.
 
+## Autocomplete
+→ See [src/components/Autocomplete/Autocomplete.instructions.md](../src/components/Autocomplete/Autocomplete.instructions.md)
+
 ## Buttons
 → See [src/components/Button/Button.instructions.md](../src/components/Button/Button.instructions.md)
+
+## IconButton
+→ See [src/components/IconButton/IconButton.instructions.md](../src/components/IconButton/IconButton.instructions.md)
 
 ## Forms
 - Use `TextField` with `variant="outlined"` — never `standard` or `filled`

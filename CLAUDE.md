@@ -35,11 +35,23 @@ import { Chip } from '@mui/material'
 
 ## Figma Code Connect
 
-Each component in `src/components/` has a corresponding `ComponentName.figma.ts` file.
+Each component in `src/components/` has a corresponding `ComponentName.figma.tsx` file.
 When adding a new component:
-1. Create `ComponentName.figma.ts` alongside it
+1. Create `ComponentName.figma.tsx` alongside it
 2. Map Figma property names to React prop values using `figma.enum()` and `figma.string()`
 3. Run `npm run figma` to publish the mapping
+
+---
+
+## When Documenting a Component
+
+When working through the component checklist, for each component:
+1. Fetch the MUI documentation page and identify all variants shown (exclude any Customization sections)
+2. Ensure every variant has a corresponding Storybook story
+3. Write `ComponentName.instructions.md` with BrightEdge-specific rules for that component
+4. Create `ComponentName.figma.tsx` with the Figma Code Connect mapping
+5. Add a reference to the instructions file in `docs/components.md`
+6. Mark all three columns (Guidelines, Figma Connect, Storybook) as ✅ in `docs/component-checklist.md`
 
 ---
 

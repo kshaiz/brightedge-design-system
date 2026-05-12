@@ -1,10 +1,6 @@
 # Component Checklist
 
-Track progress for each component: **G** = Guidelines · **F** = Figma Code Connect · **S** = Storybook
-
-For each component, share:
-- The MUI documentation page (variants)
-- The MUI API page (props)
+Track progress for each component: **G** = Guidelines · **F** = Figma Code Connect · **S** = Storybook · **P** = Figma props confirmed by user
 
 Legend: ✅ done · 🚧 in progress · ⬜ not started
 
@@ -12,81 +8,82 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 
 ## Inputs
 
-| Component | Guidelines | Figma Connect | Storybook |
-|---|---|---|---|
-| Autocomplete | ⬜ | ⬜ | ⬜ |
-| Button | ⬜ | ⬜ | ⬜ |
-| Button Group | ⬜ | ⬜ | ⬜ |
-| Checkbox | ⬜ | ⬜ | ⬜ |
-| Floating Action Button | ⬜ | ⬜ | ⬜ |
-| Number Field | ⬜ | ⬜ | ⬜ |
-| Radio Group | ⬜ | ⬜ | ⬜ |
-| Rating | ⬜ | ⬜ | ⬜ |
-| Select | ⬜ | ⬜ | ⬜ |
-| Slider | ⬜ | ⬜ | ⬜ |
-| Switch | ⬜ | ⬜ | ⬜ |
-| Text Field | ⬜ | ⬜ | ⬜ |
-| Transfer List | ⬜ | ⬜ | ⬜ |
-| Toggle Button | ⬜ | ⬜ | ⬜ |
+| Component | Guidelines | Figma Connect | Storybook | Props ✓ |
+|---|---|---|---|---|
+| Autocomplete | ✅ | ✅ | ✅ | ⬜ |
+| Button | ✅ | ✅ | ✅ | ⬜ |
+| Button Group | ✅ | ✅ | ✅ | ⬜ |
+| Checkbox | ✅ | ✅ | ✅ | ⬜ |
+| Floating Action Button | ✅ | ✅ | ✅ | ⬜ |
+| IconButton | ✅ | ✅ | ✅ | ⬜ |
+| Radio Group | ✅ | ✅ | ✅ | ⬜ |
+| Rating | ✅ | ✅ | ✅ | ⬜ |
+| Select | ✅ | ✅ | ✅ | ⬜ |
+| Slider | ✅ | ✅ | ✅ | ⬜ |
+| Switch | ✅ | ✅ | ✅ | ⬜ |
+| Text Field | ✅ | ✅ | ✅ | ⬜ |
+| Toggle Button | ✅ | ✅ | ✅ | ⬜ |
+| Number Field | ⬜ | ⬜ | ⬜ | ⬜ |
+| Transfer List | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Data Display
 
-| Component | Guidelines | Figma Connect | Storybook |
-|---|---|---|---|
-| Avatar | ⬜ | ⬜ | ⬜ |
-| Badge | ⬜ | ⬜ | ⬜ |
-| Chip | ⬜ | ⬜ | ⬜ |
-| Divider | ⬜ | ⬜ | ⬜ |
-| Icons | ⬜ | ⬜ | ⬜ |
-| List | ⬜ | ⬜ | ⬜ |
-| Table | ⬜ | ⬜ | ⬜ |
-| Tooltip | ⬜ | ⬜ | ⬜ |
-| Typography | ⬜ | ⬜ | ⬜ |
+| Component | Guidelines | Figma Connect | Storybook | Props ✓ |
+|---|---|---|---|---|
+| Avatar | ✅ | ✅ | ✅ | ⬜ |
+| Badge | ✅ | ✅ | ✅ | ⬜ |
+| Chip | ✅ | ✅ | ✅ | ⬜ |
+| Divider | ✅ | ✅ | ✅ | ⬜ |
+| Icons | ✅ | ✅ | ✅ | ⬜ |
+| List | ✅ | ✅ | ✅ | ⬜ |
+| Tooltip | ✅ | ✅ | ✅ | ⬜ |
+| Typography | ✅ | ✅ | ✅ | ⬜ |
+| Table | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Feedback
 
-| Component | Guidelines | Figma Connect | Storybook |
-|---|---|---|---|
-| Alert | ⬜ | ⬜ | ⬜ |
-| Backdrop | ⬜ | ⬜ | ⬜ |
-| Dialog | ⬜ | ⬜ | ⬜ |
-| Progress | ⬜ | ⬜ | ⬜ |
-| Skeleton | ⬜ | ⬜ | ⬜ |
-| Snackbar | ⬜ | ⬜ | ⬜ |
+| Component | Guidelines | Figma Connect | Storybook | Props ✓ |
+|---|---|---|---|---|
+| Alert | ✅ | ✅ | ✅ | ⬜ |
+| Backdrop | ✅ | ✅ | ✅ | ⬜ |
+| Dialog | ✅ | ✅ | ✅ | ⬜ |
+| Progress | ✅ | ✅ | ✅ | ⬜ |
+| Skeleton | ✅ | ✅ | ✅ | ⬜ |
+| Snackbar | ✅ | ⬜ | ✅ | ⬜ |
 
 ## Surfaces
 
-| Component | Guidelines | Figma Connect | Storybook |
-|---|---|---|---|
-| Accordion | ⬜ | ⬜ | ⬜ |
-| App Bar | ⬜ | ⬜ | ⬜ |
-| Card | ⬜ | ⬜ | ⬜ |
-| Paper | ⬜ | ⬜ | ⬜ |
+| Component | Guidelines | Figma Connect | Storybook | Props ✓ |
+|---|---|---|---|---|
+| Accordion | ✅ | ✅ | ✅ | ⬜ |
+| App Bar | ⬜ | ⬜ | ⬜ | ⬜ |
+| Card | ⬜ | ⬜ | ⬜ | ⬜ |
+| Paper | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Navigation
 
-| Component | Guidelines | Figma Connect | Storybook |
-|---|---|---|---|
-| Bottom Navigation | ⬜ | ⬜ | ⬜ |
-| Breadcrumbs | ⬜ | ⬜ | ⬜ |
-| Drawer | ⬜ | ⬜ | ⬜ |
-| Link | ⬜ | ⬜ | ⬜ |
-| Menu | ⬜ | ⬜ | ⬜ |
-| Menubar | ⬜ | ⬜ | ⬜ |
-| Pagination | ⬜ | ⬜ | ⬜ |
-| Speed Dial | ⬜ | ⬜ | ⬜ |
-| Stepper | ⬜ | ⬜ | ⬜ |
-| Tabs | ⬜ | ⬜ | ⬜ |
+| Component | Guidelines | Figma Connect | Storybook | Props ✓ |
+|---|---|---|---|---|
+| Bottom Navigation | ⬜ | ⬜ | ⬜ | ⬜ |
+| Breadcrumbs | ⬜ | ⬜ | ⬜ | ⬜ |
+| Drawer | ⬜ | ⬜ | ⬜ | ⬜ |
+| Link | ⬜ | ⬜ | ⬜ | ⬜ |
+| Menu | ⬜ | ⬜ | ⬜ | ⬜ |
+| Menubar | ⬜ | ⬜ | ⬜ | ⬜ |
+| Pagination | ⬜ | ⬜ | ⬜ | ⬜ |
+| Speed Dial | ⬜ | ⬜ | ⬜ | ⬜ |
+| Stepper | ⬜ | ⬜ | ⬜ | ⬜ |
+| Tabs | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Layout
 
-| Component | Guidelines | Figma Connect | Storybook |
-|---|---|---|---|
-| Box | ⬜ | ⬜ | ⬜ |
-| Container | ⬜ | ⬜ | ⬜ |
-| Grid | ⬜ | ⬜ | ⬜ |
-| Stack | ⬜ | ⬜ | ⬜ |
-| Image List | ⬜ | ⬜ | ⬜ |
+| Component | Guidelines | Figma Connect | Storybook | Props ✓ |
+|---|---|---|---|---|
+| Box | ⬜ | ⬜ | ⬜ | ⬜ |
+| Container | ⬜ | ⬜ | ⬜ | ⬜ |
+| Grid | ⬜ | ⬜ | ⬜ | ⬜ |
+| Stack | ⬜ | ⬜ | ⬜ | ⬜ |
+| Image List | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ---
 

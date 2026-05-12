@@ -2,6 +2,6 @@ import { Button as MuiButton, ButtonProps as MuiButtonProps } from '@mui/materia
 
 export interface ButtonProps extends MuiButtonProps {}
 
-export function Button(props: ButtonProps) {
-  return <MuiButton {...props} />
+export function Button({ loading, loadingPosition = 'start', ...props }: ButtonProps) {
+  return <MuiButton loading={loading} loadingPosition={loading ? loadingPosition : undefined} {...props} />
 }

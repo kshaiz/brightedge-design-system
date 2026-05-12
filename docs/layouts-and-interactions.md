@@ -5,6 +5,7 @@
 - Page-level padding: `p: 3` on the outer `Box`
 - Section spacing: `<Stack spacing={3}>` between major sections
 - Card containers: `<Paper elevation={0} variant="outlined" sx={{ p: 3 }}>`
+- In MUI v9, all layout props (`alignItems`, `justifyContent`, `flexWrap`, `fontWeight`, etc.) must go inside the `sx` prop — they are not accepted as direct props on `Stack`, `Box`, or `Typography`
 
 ## Theme
 - Always wrap generated pages in the BrightEdge `ThemeProvider`:
