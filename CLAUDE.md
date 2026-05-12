@@ -43,6 +43,19 @@ When adding a new component:
 
 ---
 
+## When Asked to Add Instructions
+
+Before adding any new instruction, always ask the user which file it belongs in:
+
+- `docs/component-guidelines.md` — how to use specific components (buttons, forms, tables, charts)
+- `docs/ui-layout.md` — page structure, spacing, theme usage, file organization
+- `docs/language-and-tone.md` — copy, labels, error messages, terminology
+- `docs/accessibility.md` — ARIA, keyboard navigation, color, screen readers
+
+Do not add instructions to `CLAUDE.md` itself unless they are meta-rules about how to work with this system.
+
+---
+
 ## When Given Product Requirements
 
 1. Identify the main entities (data objects the user acts on)

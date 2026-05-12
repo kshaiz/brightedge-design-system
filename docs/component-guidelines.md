@@ -6,6 +6,7 @@
 - Destructive: `variant="contained" color="error"`
 - Never use `variant="text"` for primary actions
 - Always use `disableElevation` for contained buttons
+- Only one `variant="contained"` button per section — all others must be `variant="outlined"` or `variant="text"`
 
 ## Forms
 - Use `TextField` with `variant="outlined"` — never `standard` or `filled`
