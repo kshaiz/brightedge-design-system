@@ -1,10 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button } from './Button'
+// @ts-ignore
+import instructions from './Button.instructions.md?raw'
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
   component: Button,
   tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component: instructions,
+      },
+    },
+  },
   argTypes: {
     variant: {
       control: 'select',

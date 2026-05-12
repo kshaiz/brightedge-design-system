@@ -9,8 +9,8 @@ Read the linked files below for the full rules before generating any UI.
 
 ## Detailed Guidelines
 
-- [Component Guidelines](docs/component-guidelines.md)
-- [UI Layout](docs/ui-layout.md)
+- [Component Guidelines](docs/components.md)
+- [UI Layout](docs/layouts-and-interactions.md)
 - [Language & Tone](docs/language-and-tone.md)
 - [Accessibility](docs/accessibility.md)
 
@@ -47,8 +47,8 @@ When adding a new component:
 
 Before adding any new instruction, always ask the user which file it belongs in:
 
-- `docs/component-guidelines.md` — how to use specific components (buttons, forms, tables, charts)
-- `docs/ui-layout.md` — page structure, spacing, theme usage, file organization
+- `docs/components.md` — how to use specific components (buttons, forms, tables, charts)
+- `docs/layouts-and-interactions.md` — page structure, spacing, theme usage, file organization
 - `docs/language-and-tone.md` — copy, labels, error messages, terminology
 - `docs/accessibility.md` — ARIA, keyboard navigation, color, screen readers
 
@@ -61,7 +61,7 @@ Do not add instructions to `CLAUDE.md` itself unless they are meta-rules about h
 1. Identify the main entities (data objects the user acts on)
 2. Identify the primary actions (CRUD, filter, export, etc.)
 3. Map each requirement to a component: list → DataGrid, metric → Card + number, trend → LineChart
-4. Generate the page following the rules in [UI Layout](docs/ui-layout.md) and [Component Guidelines](docs/component-guidelines.md)
+4. Generate the page following the rules in [UI Layout](docs/layouts-and-interactions.md) and [Component Guidelines](docs/components.md)
 5. Use placeholder data shaped like the real data (typed interfaces, not `any`)
 6. Add a `// TODO:` comment where an API call or real data hook should be wired in
 

@@ -4,9 +4,9 @@ import { useState } from 'react'
 // @ts-ignore
 import overviewMd from '../../CLAUDE.md?raw'
 // @ts-ignore
-import componentsMd from '../../docs/component-guidelines.md?raw'
+import componentsMd from '../../docs/components.md?raw'
 // @ts-ignore
-import layoutMd from '../../docs/ui-layout.md?raw'
+import layoutMd from '../../docs/layouts-and-interactions.md?raw'
 // @ts-ignore
 import toneMd from '../../docs/language-and-tone.md?raw'
 // @ts-ignore
@@ -17,15 +17,15 @@ function MarkdownBlock({ content }: { content: string }) {
     <Box sx={{ maxWidth: 860, mx: 'auto', py: 3 }}>
       {content.split('\n').map((line, i) => {
         if (line.startsWith('# '))
-          return <Typography key={i} variant="h4" fontWeight={700} gutterBottom mt={2}>{line.slice(2)}</Typography>
+          return <Typography key={i} variant="h4" gutterBottom sx={{ fontWeight: 700, mt: 2 }}>{line.slice(2)}</Typography>
         if (line.startsWith('## '))
-          return <Typography key={i} variant="h5" fontWeight={600} gutterBottom mt={4}>{line.slice(3)}</Typography>
+          return <Typography key={i} variant="h5" gutterBottom sx={{ fontWeight: 600, mt: 4 }}>{line.slice(3)}</Typography>
         if (line.startsWith('### '))
-          return <Typography key={i} variant="h6" fontWeight={600} gutterBottom mt={3}>{line.slice(4)}</Typography>
+          return <Typography key={i} variant="h6" gutterBottom sx={{ fontWeight: 600, mt: 3 }}>{line.slice(4)}</Typography>
         if (line.startsWith('---'))
           return <Divider key={i} sx={{ my: 3 }} />
         if (line === '')
-          return <Box key={i} mb={1} />
+          return <Box key={i} sx={{ mb: 1 }} />
         if (line.startsWith('```'))
           return null
         if (line.startsWith('- '))
@@ -39,7 +39,7 @@ function MarkdownBlock({ content }: { content: string }) {
 const tabs = [
   { label: 'Overview',            content: overviewMd },
   { label: 'Component Guidelines', content: componentsMd },
-  { label: 'UI Layout',           content: layoutMd },
+  { label: 'Layout & Interaction', content: layoutMd },
   { label: 'Language & Tone',     content: toneMd },
   { label: 'Accessibility',       content: a11yMd },
 ]
@@ -49,10 +49,10 @@ function AIInstructionsPage() {
 
   return (
     <Box sx={{ px: 3, pb: 6 }}>
-      <Typography variant="h4" fontWeight={700} pt={4} pb={1}>
+      <Typography variant="h4" sx={{ fontWeight: 700, pt: 4, pb: 1 }}>
         BrightEdge Design System
       </Typography>
-      <Typography variant="body2" color="text.secondary" mb={3}>
+      <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
         AI codegen instructions — read by Claude when generating UI from product requirements
       </Typography>
       <Tabs value={active} onChange={(_, v) => setActive(v)} sx={{ borderBottom: 1, borderColor: 'divider' }}>

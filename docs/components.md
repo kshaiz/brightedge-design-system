@@ -1,12 +1,12 @@
 # Component Guidelines
 
+Each component has its own `[ComponentName].instructions.md` file living alongside its source code.
+Those files are the source of truth for component-specific AI rules and are also rendered inside Storybook autodocs.
+
+This file covers shared patterns that apply across multiple components.
+
 ## Buttons
-- Primary actions: `variant="contained"`
-- Secondary/cancel: `variant="outlined"`
-- Destructive: `variant="contained" color="error"`
-- Never use `variant="text"` for primary actions
-- Always use `disableElevation` for contained buttons
-- Only one `variant="contained"` button per section — all others must be `variant="outlined"` or `variant="text"`
+→ See [src/components/Button/Button.instructions.md](../src/components/Button/Button.instructions.md)
 
 ## Forms
 - Use `TextField` with `variant="outlined"` — never `standard` or `filled`
