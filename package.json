@@ -1,0 +1,68 @@
+{
+  "name": "@brightedge/design-system",
+  "version": "0.1.0",
+  "description": "BrightEdge design system — MUI component library + AI codegen instructions",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "CLAUDE.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly --declaration --declarationDir dist",
+    "dev": "vite build --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "figma": "figma connect publish",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@mui/icons-material": "^9",
+    "@mui/material": "^9",
+    "highcharts": "^12",
+    "highcharts-react-official": "^3",
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@figma/code-connect": "^1",
+    "@vitejs/plugin-react": "^4",
+    "@mui/icons-material": "^9.0.1",
+    "@mui/material": "^9.0.1",
+    "@storybook/addon-essentials": "^8",
+    "@storybook/addon-interactions": "^8",
+    "@storybook/addon-links": "^8",
+    "@storybook/blocks": "^8",
+    "@storybook/react": "^8",
+    "@storybook/react-vite": "^8",
+    "@storybook/test": "^8",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "highcharts": "^12.1.0",
+    "highcharts-react-official": "^3.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^8",
+    "typescript": "^5.7.0",
+    "vite": "^6",
+    "vite-plugin-dts": "^4"
+  },
+  "keywords": ["brightedge", "design-system", "mui", "highcharts", "react"],
+  "license": "UNLICENSED",
+  "private": false
+}
