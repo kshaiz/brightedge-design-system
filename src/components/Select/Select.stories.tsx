@@ -9,7 +9,8 @@ import {
 } from '@mui/material'
 import { useState } from 'react'
 import { FormLabel } from '../FormLabel'
-import { Select, MenuItem, SelectChangeEvent } from './Select'
+import { Select, SelectChangeEvent } from './Select'
+import { MenuItem } from '../Menu'
 // @ts-ignore
 import instructions from './Select.instructions.md?raw'
 

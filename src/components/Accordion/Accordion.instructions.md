@@ -1,9 +1,10 @@
 # Accordion — AI Instructions
 
 ## When to use
-- Use `Accordion` to progressively disclose sections of content — FAQs, settings panels, filter groups
+- Use `Accordion` for **optional settings or supplementary information** that most users won't always need — collapsing it keeps the primary UI clean
+- Good use cases: advanced filter options, optional configuration panels, help/FAQ sections, secondary metadata
 - Prefer accordion over tabs when sections can meaningfully coexist (user may need to compare two open panels)
-- Do not use accordion for primary navigation
+- Do not use accordion for primary navigation or content that most users need to see immediately
 
 ## Basic usage
 ```tsx

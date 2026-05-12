@@ -2,7 +2,7 @@
 
 ## When to use
 - Use `Alert` inline within the page to communicate status, warnings, or contextual information
-- For page-level transient notifications after a user action, use `Snackbar` + `Alert` — see the [Snackbar](../Snackbar/Snackbar.instructions.md) component
+- For page-level transient notifications after a user action, use `PageAlert` (top-right toast)
 
 ## Severity
 `"error"` | `"warning"` | `"info"` | `"success"`
@@ -43,7 +43,23 @@ Use `AlertTitle` when the message needs a heading:
 </Alert>
 ```
 
+## PageAlert (top-right toast)
+
+Use `PageAlert` for transient page-level notifications triggered by user actions (save, publish, delete):
+
+```tsx
+<PageAlert
+  open={open}
+  onClose={() => setOpen(false)}
+  severity="success"
+  title="Report published"
+  message="Your report is now visible to all workspace members."
+/>
+```
+
+Props: `open`, `onClose`, `severity` (error|warning|info|success), `message` (required), `title` (optional), `autoHideDuration` (default 6000ms).
+
 ## Do not
-- Do not use `filled` variant for inline alerts — that is reserved for Snackbar toasts
+- Do not use `filled` variant for inline alerts — that is reserved for `PageAlert`
 - Do not use `outlined` variant
-- Do not use Alert for page-level toasts — use `Snackbar` + `Alert` instead
+- Do not use raw `Snackbar + Alert` for toasts — use `PageAlert` instead

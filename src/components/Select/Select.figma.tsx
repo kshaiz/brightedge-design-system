@@ -1,7 +1,8 @@
 import figma from '@figma/code-connect'
 import { FormControl } from '@mui/material'
 import { FormLabel } from '../FormLabel'
-import { Select, MenuItem } from './Select'
+import { Select } from './Select'
+import { MenuItem } from '../Menu'
 
 figma.connect(
   Select,

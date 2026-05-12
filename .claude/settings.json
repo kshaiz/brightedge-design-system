@@ -5,7 +5,9 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "WebFetch(domain:mui.com)",
-      "mcp__claude_ai_Figma__get_code_connect_suggestions"
+      "mcp__claude_ai_Figma__get_code_connect_suggestions",
+      "mcp__claude_ai_Figma__search_design_system",
+      "mcp__claude_ai_Figma__get_context_for_code_connect"
     ]
   }
 }

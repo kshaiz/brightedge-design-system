@@ -38,7 +38,7 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 | List | ✅ | ✅ | ✅ | ⬜ |
 | Tooltip | ✅ | ✅ | ✅ | ⬜ |
 | Typography | ✅ | ✅ | ✅ | ⬜ |
-| Table | ⬜ | ⬜ | ⬜ | ⬜ |
+| Table | ✅ | ✅ | ✅ | ⬜ |
 
 ## Feedback
 
@@ -56,33 +56,34 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 | Component | Guidelines | Figma Connect | Storybook | Props ✓ |
 |---|---|---|---|---|
 | Accordion | ✅ | ✅ | ✅ | ⬜ |
-| App Bar | ⬜ | ⬜ | ⬜ | ⬜ |
-| Card | ⬜ | ⬜ | ⬜ | ⬜ |
-| Paper | ⬜ | ⬜ | ⬜ | ⬜ |
+| App Bar | 🚫 | — | — | — |
+| Card | ✅ | ✅ | ✅ | ⬜ |
+| Paper | ✅ | ✅ | ✅ | ⬜ |
+| Popover | ✅ | ✅ | ✅ | ⬜ |
 
 ## Navigation
 
 | Component | Guidelines | Figma Connect | Storybook | Props ✓ |
 |---|---|---|---|---|
-| Bottom Navigation | ⬜ | ⬜ | ⬜ | ⬜ |
-| Breadcrumbs | ⬜ | ⬜ | ⬜ | ⬜ |
-| Drawer | ⬜ | ⬜ | ⬜ | ⬜ |
-| Link | ⬜ | ⬜ | ⬜ | ⬜ |
-| Menu | ⬜ | ⬜ | ⬜ | ⬜ |
+| Bottom Navigation | 🚫 | — | — | — |
+| Breadcrumbs | ✅ | ✅ | ✅ | ⬜ |
+| Drawer | ✅ | ✅ | ✅ | ⬜ |
+| Link | ✅ | ✅ | ✅ | ⬜ |
+| Menu | ✅ | ✅ | ✅ | ⬜ |
 | Menubar | ⬜ | ⬜ | ⬜ | ⬜ |
 | Pagination | ⬜ | ⬜ | ⬜ | ⬜ |
 | Speed Dial | ⬜ | ⬜ | ⬜ | ⬜ |
 | Stepper | ⬜ | ⬜ | ⬜ | ⬜ |
-| Tabs | ⬜ | ⬜ | ⬜ | ⬜ |
+| Tabs | ✅ | ✅ | ✅ | ⬜ |
 
 ## Layout
 
 | Component | Guidelines | Figma Connect | Storybook | Props ✓ |
 |---|---|---|---|---|
-| Box | ⬜ | ⬜ | ⬜ | ⬜ |
-| Container | ⬜ | ⬜ | ⬜ | ⬜ |
-| Grid | ⬜ | ⬜ | ⬜ | ⬜ |
-| Stack | ⬜ | ⬜ | ⬜ | ⬜ |
+| Box | ✅ | — | ✅ | — |
+| Container | ✅ | ✅ | ✅ | ⬜ |
+| Grid | 🚫 | — | — | — |
+| Stack | ✅ | ✅ | ✅ | ⬜ |
 | Image List | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ---

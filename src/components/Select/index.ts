@@ -1,2 +1,2 @@
-export { Select, MenuItem } from './Select'
+export { Select } from './Select'
 export type { SelectProps, SelectChangeEvent } from './Select'
